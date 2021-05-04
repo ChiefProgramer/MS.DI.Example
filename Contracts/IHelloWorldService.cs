@@ -1,5 +1,6 @@
 ﻿namespace Contracts { 
 	public interface IHelloWorldService {
-		void HelloWord();  
+		void HelloWord();
+		string HelloWordText();
 	}
 }
